@@ -3,9 +3,11 @@ This project builds web application which are able to generate realistic fake co
 
 # Before running it:
 1. install libraries required for StyleGAN2 - ADA 
+
     pip install click requests tqdm pyspng ninja imageio-ffmpeg==0.4.3
     
 2. install flask:
+
     pip install flask
 
 # Run the application
