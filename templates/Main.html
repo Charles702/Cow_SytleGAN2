@@ -1,0 +1,29 @@
+<!doctyle html>
+<html>
+<head>
+<style>
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+p {
+  font-family: verdana;
+  font-size: 10px;
+}
+</style>
+</head>
+<title>Home Page</title>
+</head>
+<body>
+    <center><h1>OneCupAI - This Cow Does Not Exist</h1></center>
+    <center><p> ID: {{image_id}} </p></center>
+    {% if content == "zhuchen" %}
+        <p> hi welcom ! chef </p>
+    {% endif %}
+    <center><img src = "{{url_for('static', filename = image_name)}}" alt='hi I am {{image_id}} ! I am created by GAN' width="600" height="600"></center>
+</body>
+</html>
