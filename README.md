@@ -13,3 +13,6 @@ This project builds web application which are able to generate realistic fake co
 # Run the application
 
    python  webapp_cow.py  --model <model_path>   (defult model path is 'output/')
+
+# Website "This Cow Does Not Exist"
+http://3.237.9.245:5000/
