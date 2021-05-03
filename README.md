@@ -16,3 +16,7 @@ This project builds web application which are able to generate realistic fake co
 
 # Website "This Cow Does Not Exist"
 http://3.237.9.245:5000/
+
+Example result:
+
+![](./web_cow.JPG)
